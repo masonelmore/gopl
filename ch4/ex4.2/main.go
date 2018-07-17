@@ -1,4 +1,4 @@
-// Ex2.4-hash prints the SHA256, SHA385, or SHA512 hash of its input.
+// Ex4.2-hash prints the SHA256, SHA385, or SHA512 hash of its input.
 package main
 
 import (
