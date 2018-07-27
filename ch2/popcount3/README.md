@@ -1,5 +1,5 @@
 # Exercise 2.5
-"The expression `x&(x-1)` clears the rightmost non-zero bit of `x`.  Write a version of [popcount](https://github.com/adonovan/gopl.io/blob/b725d6015f980e94734da37e35ba0d943fc7532f/ch2/popcount/main.go) that counts bits by using this fact, and asses its performance."
+"The expression `x&(x-1)` clears the rightmost non-zero bit of `x`.  Write a version of [popcount](https://github.com/masonelmore/gopl/blob/b9a3ac1f943c43dbc7c55ffe9d8201ee1f62a628/ch2/popcount2/popcount.go) that counts bits by using this fact, and asses its performance."
 
 # Results
 ```

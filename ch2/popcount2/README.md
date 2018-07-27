@@ -1,5 +1,5 @@
 # Exercise 2.4
-"Write a version of [popcount](FIXME) that counts bits by shifting its argument through 64 bit positions, testing the rightmost bit each time.  Compare its performance to the table-lookup version."
+"Write a version of [popcount](https://github.com/masonelmore/gopl/blob/b9a3ac1f943c43dbc7c55ffe9d8201ee1f62a628/ch2/popcount1/popcount.go) that counts bits by shifting its argument through 64 bit positions, testing the rightmost bit each time.  Compare its performance to the table-lookup version."
 
 # Results
 ```

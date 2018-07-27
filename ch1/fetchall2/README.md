@@ -1,5 +1,5 @@
 # Exercise 1.11
-"Try [fetchall](FIXME) with longer argument lists, such as samples from the top million web sites available at alexa.com.  How does the program behave if a web site just doesn't respond? (Section 8.9 describes mechanisms for coping in such cases.)"
+"Try [fetchall](https://github.com/masonelmore/gopl/blob/b9a3ac1f943c43dbc7c55ffe9d8201ee1f62a628/ch1/fetchall1/main.go) with longer argument lists, such as samples from the top million web sites available at alexa.com.  How does the program behave if a web site just doesn't respond? (Section 8.9 describes mechanisms for coping in such cases.)"
 
 # Results
 I initially tried running it with 10000 urls, but it was taking way too long to complete.  I imagine that trying to send that many requests at once might be a bit excessive.  I toned it down to 100 urls and I was still able to catch a ton of errors.
