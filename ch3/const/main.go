@@ -7,14 +7,14 @@ import (
 const (
 	KB = 1000
 	MB = KB * KB
-	GB = MB * MB
-	TB = GB * GB
-	PB = TB * TB
-	EB = PB * PB
-	ZB = EB * EB
-	YB = ZB * ZB
+	GB = MB * KB
+	TB = GB * KB
+	PB = TB * KB
+	EB = PB * KB
+	ZB = EB * KB // Too big to print!
+	YB = ZB * KB // Too big to print!
 )
 
 func main() {
-	fmt.Printf("KB: %v\nMB: %v\nGB: %v\nTB: %v\nPB: %v\nEB: %v\nEiB: %v\n", KB, MB, GB, TB, PB, EB, ZB, YB)
+	fmt.Printf("KB: %v\nMB: %v\nGB: %v\nTB: %v\nPB: %v\nEB: %v\n", KB, MB, GB, TB, PB, EB)
 }
